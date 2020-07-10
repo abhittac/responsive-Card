@@ -1,0 +1,286 @@
+body{
+  font-size: 13px;
+  background: hsl(210, 46%, 95%);
+}
+.outer
+{
+  height: 318px;
+  width: 800px;
+  background: white;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  
+ box-shadow: 0 2px 5px hsl(212, 23%, 69%);
+}
+.text{
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+  width: 400px;
+  color:#88909d;
+overflow-wrap: break-word;
+font-family: manrope;
+
+
+}
+h2{
+  color: hsl(217, 19%, 35%);
+  font-family: 'Manrope', sans-serif;
+font-weight: 700;
+text-align: start;
+}
+h4{
+  color: hsl(217, 19%, 35%);
+  font-family: 'Manrope', sans-serif;
+font-weight: 700;
+text-align: start;
+position: relative;
+top:-50px;
+left: 90px;
+}
+.date{
+  position: relative;
+top:-90px;
+left: 90px;
+}
+.img{
+  
+  height: 100%;
+  width: 300px;
+  background: url("drawers.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius:20px 0 0 20px;
+}
+.avatar{
+  height: 65px;
+  width: 65px;
+  background: url("avatar-michelle.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  position: relative;
+  top: 20px;
+}
+.share{
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  position: relative;
+  top: -130px;
+  left: 370px;
+  background: hsl(210, 46%, 95%) ;
+}
+.fa-share{
+position: relative;
+top: 5px;
+left: 10px;
+}
+.icon{
+  height: 50px;
+  width: 250px;
+  background:hsl(217, 19%, 35%) ;
+  position: absolute;
+  top:150px;
+  left: 275px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px  hsl(210, 46%, 95%),0 0 50px   hsl(300, 46%, 95%);
+  display: none;
+cursor: pointer;
+}
+.icon::before{ content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-left: -25px;
+  border-width: 15px;
+  border-style: solid;
+  border-color:hsl(217, 19%, 35%) transparent transparent transparent;
+}
+.icon .s{
+  color:hsl(212, 23%, 69%);
+  text-transform: uppercase;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 4px;
+  margin-top:15px;
+  margin-left: 15px;
+}
+.icon .fa-facebook-official{
+  color:white;
+  position: absolute;
+  top:15px;
+  left:130px;
+  font-size: 20px;
+  
+}
+.icon .fa-twitter{
+  color:white;
+  position: absolute;
+  top:15px;
+  left:200px;
+  font-size: 20px;
+  
+}
+.icon .fa-pinterest{
+  color:white;
+  position: absolute;
+  top:15px;
+  left:165px;
+  font-size: 20px;
+}
+@media(max-width:375px)
+{
+body{
+  height: 150vh;
+  width: 375px;
+}
+  .outer
+  {
+    height: 115vh;
+    width: 280px;
+    margin-top: 100px;
+    padding-bottom: 60px;
+    background: white;
+    
+  }
+  .text{
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    height: 50%;
+    width: 80%;
+    color:#88909d;
+  overflow-wrap: break-word;
+  font-family: manrope;
+  line-height: 1.3rem;
+  
+  }
+  .text p{
+    position: relative;
+    top:-70px;
+  }
+  h2{
+    position: relative;
+    top: -70px;
+    left: 0;
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  text-align: start;
+  font-size: 1rem;
+ 
+}
+  h4{
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  text-align: start;
+  position: relative;
+  top:-115px;
+  left: 50px;
+  
+  }
+  .date{
+    margin-top:-80px;
+    margin-left:-40px;
+}
+  .img{
+    
+    height: 50%;
+    width: 100%;
+    background: url("drawers.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius:20px 20px 0 0;
+    
+  }
+  .avatar{
+    height: 40px;
+    width: 40px;
+    background: url("avatar-michelle.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    position: relative;
+    top: -60px;
+    
+  }
+  .share{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -123px;
+    left: 197px;
+    background: hsl(210, 46%, 95%);
+    
+  }
+  .share .fa-share{
+
+  position: relative;
+  top: 4px;
+  left: 7px;
+  display: inline-block;
+  
+  
+  }
+  .icon{
+    height: 60px;
+    width:280px;
+    background:hsl(217, 19%, 35%) ;
+    position: absolute;
+    top:160px;
+    left: -28px;
+    border-radius:0 0 20px 20px;
+    box-shadow: 0 0 25px  hsl(210, 46%, 95%),0 0 50px   hsl(300, 46%, 95%);
+    display: none;
+  cursor: pointer;
+  }
+ 
+.icon::before{ content: "";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-left: -25px;
+  border-width: 15px;
+  border-style: solid;
+  border-color:hsl(217, 19%, 35%) transparent transparent transparent;
+  display: none;
+}
+  .icon .s{
+    color:hsl(212, 23%, 69%);
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 4px;
+    margin-top:82px;
+    margin-left: 15px;
+  }
+  .icon .fa-facebook-official{
+    color:white;
+    position: absolute;
+    top:15px;
+    left:130px;
+    font-size: 20px;
+    
+  }
+  .icon .fa-twitter{
+    color:white;
+    position: absolute;
+    top:15px;
+    left:200px;
+    font-size: 20px;
+    
+  }
+  .icon .fa-pinterest{
+    color:white;
+    position: absolute;
+    top:15px;
+    left:165px;
+    font-size: 20px;
+  }
+}
